@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace ALMClient
+{
+    public partial class _default : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                leftMenuTree.Nodes[0].Text = Session["Domain"].ToString() +"\\"+ Session["Project"].ToString();
+                
+            }
+        }
+    }
+}

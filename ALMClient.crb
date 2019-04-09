@@ -1,0 +1,25 @@
+REM * DevPartner Code Review Batch Configuration File *
+
+[SOLUTION]
+SOLUTION=D:\11316632\01 Project\ALMClient\ALMClient.sln
+RULESET=д╛хо
+UNCALLED=1
+METRICS=0
+NAMING=1
+UseVSNETNaming=1
+AnalyzeNamespaces=1
+AnalyzeClasses=1
+AnalyzeInterfaces=1
+AnalyzeDelegates=1
+AnalyzeEvents=1
+AnalyzeEnums=1
+AnalyzeStructs=1
+AnalyzeParameters=1
+AnalyzeMethods=1
+AnalyzeVars=1
+AnalyzePublicsOnly=1
+UseCamelOnLocals=1
+Dictionary=0
+CodeReviewVersion=11.4 Build 2314
+SESSIONFILE=D:\11316632\01 Project\ALMClient\ALMClient.dpmdb
+SUMMARYFILE=D:\11316632\01 Project\ALMClient\ALMClient.htm
